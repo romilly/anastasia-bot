@@ -1,19 +1,6 @@
 <map version="freeplane 1.5.9">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node FOLDED="false" ID="Freemind_Link_1331878192" CREATED="1266488194781" MODIFIED="1581245692038" LINK="../../../../Dropbox/personal/planning/routine/active-projects.mm"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      plan
-    </p>
-  </body>
-</html>
-</richcontent>
-<hook NAME="MapStyle">
+<node TEXT="Anastasia&#xa;plan" FOLDED="false" ID="Freemind_Link_1331878192" CREATED="1266488194781" MODIFIED="1583746793804" LINK="../../../../Dropbox/personal/planning/routine/active-projects.mm"><hook NAME="MapStyle">
     <properties fit_to_viewport="false;"/>
 
 <map_styles>
@@ -67,21 +54,85 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="Goal" POSITION="right" ID="Freemind_Link_1242386705" CREATED="1266488217621" MODIFIED="1485097924419" COLOR="#37a3cb"/>
+<node TEXT="Goal" POSITION="right" ID="Freemind_Link_1242386705" CREATED="1266488217621" MODIFIED="1485097924419" COLOR="#37a3cb">
+<node TEXT="mobile micro:bit based robot" ID="ID_73953674" CREATED="1583746795774" MODIFIED="1583746810163">
+<node TEXT="updating to Clue" ID="ID_1441747833" CREATED="1583746827477" MODIFIED="1583746832137"/>
+<node TEXT="in time for PyCon US" ID="ID_374889432" CREATED="1583746862188" MODIFIED="1583746868898">
+<node ID="ID_1395319265" CREATED="1583748043572" MODIFIED="1583748043572"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    April 15-23, 2020; Pittsburgh,
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="low cost" ID="ID_1681571673" CREATED="1583746813117" MODIFIED="1583746880569">
+<node TEXT="&lt; &#xa3;50 for micro:bit version" ID="ID_1248381922" CREATED="1583746884805" MODIFIED="1583746898873"/>
+</node>
+<node TEXT="short build time" ID="ID_1605046501" CREATED="1583746819124" MODIFIED="1583746822803">
+<node TEXT="&lt; 10 hours for 1st iteration" ID="ID_1806889417" CREATED="1583746904523" MODIFIED="1583747020424"/>
+</node>
+</node>
 <node TEXT="Plan" POSITION="right" ID="_" CREATED="1266488212530" MODIFIED="1266488546784" COLOR="#373dcb">
 <edge COLOR="#808080"/>
+<node TEXT="Iteration 1" ID="ID_1479626098" CREATED="1583747005753" MODIFIED="1583747538291">
+<icon BUILTIN="button_ok"/>
+<node TEXT="assemble v1" ID="ID_706756540" CREATED="1583746934301" MODIFIED="1583746943369"/>
+<node TEXT="write simple test software" ID="ID_149480685" CREATED="1583746944578" MODIFIED="1583746950720"/>
+<node TEXT="test radio controller" ID="ID_1801847010" CREATED="1583746951138" MODIFIED="1583746959184"/>
 </node>
-<node TEXT="Tasks" POSITION="right" ID="Freemind_Link_857865306" CREATED="1266488223477" MODIFIED="1266488636684" COLOR="#de5613"/>
-<node TEXT="Review" FOLDED="true" POSITION="left" ID="Freemind_Link_1153466861" CREATED="1266488259116" MODIFIED="1266488895851" COLOR="#fb1802">
+<node TEXT="Iteration 2" ID="ID_1039462648" CREATED="1583747058130" MODIFIED="1583747061373">
+<node TEXT="better power control" ID="ID_35375826" CREATED="1583747087394" MODIFIED="1583747093503">
+<node TEXT="use Dyalog battery" ID="ID_231376265" CREATED="1583747065234" MODIFIED="1583747082790"/>
+<node TEXT="add power switch" ID="ID_964561759" CREATED="1583747107496" MODIFIED="1583747112156"/>
+<node TEXT="add battery monitor" ID="ID_1267707750" CREATED="1583747112480" MODIFIED="1583747117283"/>
+</node>
+<node TEXT="enhance code" ID="ID_1605446653" CREATED="1583746959482" MODIFIED="1583746968251">
+<node TEXT="tilt-sensitive controler" ID="ID_1054891844" CREATED="1583746969226" MODIFIED="1583748267300"/>
+<node TEXT="driver class-based with bound method commands" ID="ID_11434484" CREATED="1583746980714" MODIFIED="1583748273600"/>
+</node>
+</node>
+<node TEXT="Iteration 3" ID="ID_1339697301" CREATED="1583747125991" MODIFIED="1583747134565">
+<node TEXT="Switch to Clue" ID="ID_1018672655" CREATED="1583747135356" MODIFIED="1583747143957"/>
+<node TEXT="Add ToF sensor" ID="ID_1856769991" CREATED="1583747144272" MODIFIED="1583747149068"/>
+<node TEXT="Use Bluetooth control" ID="ID_523571638" CREATED="1583747149825" MODIFIED="1583747548204"/>
+<node TEXT="Quadrature encoders" ID="ID_199607030" CREATED="1583747567930" MODIFIED="1583747574843"/>
+</node>
+<node TEXT="Iteration 4" ID="ID_860625161" CREATED="1583747555130" MODIFIED="1583747562566">
+<node TEXT="TTL Video camera" ID="ID_961583000" CREATED="1583747577466" MODIFIED="1583747595205"/>
+</node>
+</node>
+<node TEXT="Tasks" POSITION="right" ID="Freemind_Link_857865306" CREATED="1266488223477" MODIFIED="1266488636684" COLOR="#de5613">
+<node TEXT="add more resource links to mind map" ID="ID_1830172551" CREATED="1583747615866" MODIFIED="1583747630195">
+<node TEXT="Kitronik data sheet" ID="ID_593130514" CREATED="1583747631425" MODIFIED="1583747637742"/>
+<node TEXT="motors" ID="ID_1127778814" CREATED="1583747704850" MODIFIED="1583747708020"/>
+</node>
+</node>
+<node TEXT="Review" POSITION="left" ID="Freemind_Link_1153466861" CREATED="1266488259116" MODIFIED="1266488895851" COLOR="#fb1802">
 <icon BUILTIN="xmag"/>
 <node TEXT="WW" ID="Freemind_Link_1466796877" CREATED="1266488965666" MODIFIED="1296303686570" COLOR="#ffcc00" BACKGROUND_COLOR="#006666">
 <icon BUILTIN="button_ok"/>
+<node TEXT="Kitronik Controller" ID="ID_688129539" CREATED="1583748097162" MODIFIED="1583748102656">
+<node TEXT="Good build quality" ID="ID_1766539694" CREATED="1583748104018" MODIFIED="1583748109873"/>
+<node TEXT="Great docs" ID="ID_1189375" CREATED="1583748110562" MODIFIED="1583748114190"/>
+<node TEXT="Easy to use" ID="ID_39347306" CREATED="1583748114581" MODIFIED="1583748118367"/>
+</node>
 </node>
 <node TEXT="WDNW" ID="Freemind_Link_1910608691" CREATED="1266488980018" MODIFIED="1296303689746">
 <icon BUILTIN="button_cancel"/>
+<node TEXT="motors unequal in power" ID="ID_913473301" CREATED="1583748122250" MODIFIED="1583748131886"/>
 </node>
 <node TEXT="WDD" ID="Freemind_Link_1294877740" CREATED="1266488984697" MODIFIED="1296303577864" COLOR="#00cc00">
 <icon BUILTIN="licq"/>
+<node TEXT="try better PSU" ID="ID_696367583" CREATED="1583748134074" MODIFIED="1583748151516"/>
+<node TEXT="replace motors" ID="ID_320198030" CREATED="1583748142130" MODIFIED="1583748147327"/>
 </node>
 <node TEXT="Questions" ID="Freemind_Link_1003502265" CREATED="1266489024048" MODIFIED="1296303570801" COLOR="#00cccc">
 <icon BUILTIN="help"/>
@@ -91,12 +142,17 @@
 </node>
 <node TEXT="Feelings" ID="Freemind_Link_1706517660" CREATED="1266489043119" MODIFIED="1296303692921" COLOR="#cc0000">
 <icon BUILTIN="ksmiletris"/>
+<node TEXT="that worked well" ID="ID_1734127998" CREATED="1583748158929" MODIFIED="1583748176958"/>
+<node TEXT="quick project" ID="ID_1693918051" CREATED="1583748178289" MODIFIED="1583748181775"/>
+<node TEXT="fun" ID="ID_1983694930" CREATED="1583748182281" MODIFIED="1583748183894"/>
 </node>
 <node TEXT="Ideas" ID="Freemind_Link_1517433488" CREATED="1266488273147" MODIFIED="1266488921179" COLOR="#36d12a">
 <icon BUILTIN="idea"/>
+<node TEXT="add Quadrature encoders" ID="ID_249807620" CREATED="1583748188770" MODIFIED="1583748207150"/>
 </node>
 <node TEXT="Fridge" ID="Freemind_Link_1954142386" CREATED="1266488793745" MODIFIED="1266488959040" COLOR="#9679df">
 <icon BUILTIN="desktop_new"/>
+<node TEXT="SLAM" ID="ID_729938607" CREATED="1583748223248" MODIFIED="1583748225869"/>
 </node>
 <node TEXT="discoveries" ID="ID_1011483963" CREATED="1485097938875" MODIFIED="1485097984855" COLOR="#00cc33">
 <icon BUILTIN="very_positive"/>
@@ -107,6 +163,15 @@
 </node>
 <node TEXT="Resources" POSITION="left" ID="Freemind_Link_1594441695" CREATED="1273319832507" MODIFIED="1296303609303" COLOR="#33ff33">
 <icon BUILTIN="password"/>
+<node TEXT="TTL serial camera" ID="ID_1553401868" CREATED="1583747681938" MODIFIED="1583747698951" LINK="https://learn.adafruit.com/ttl-serial-camera">
+<node TEXT="https://github.com/adafruit/Adafruit_CircuitPython_VC0706" ID="ID_574209556" CREATED="1583747977979" MODIFIED="1583747977979" LINK="https://github.com/adafruit/Adafruit_CircuitPython_VC0706"/>
+</node>
+<node TEXT="BLE/BlueZ" ID="ID_1301479423" CREATED="1583747812159" MODIFIED="1583747843536">
+<node TEXT="https://www.bluetooth.com/blog/bluez-on-raspberry-pi-update/" ID="ID_1318750039" CREATED="1583747815533" MODIFIED="1583747815533" LINK="https://www.bluetooth.com/blog/bluez-on-raspberry-pi-update/"/>
+<node TEXT="https://learn.adafruit.com/install-bluez-on-the-raspberry-pi" ID="ID_968440775" CREATED="1583747835838" MODIFIED="1583747835838" LINK="https://learn.adafruit.com/install-bluez-on-the-raspberry-pi"/>
+<node TEXT="https://learn.adafruit.com/introduction-to-bluetooth-low-energy/introduction" ID="ID_663337947" CREATED="1583748006030" MODIFIED="1583748006030" LINK="https://learn.adafruit.com/introduction-to-bluetooth-low-energy/introduction"/>
+</node>
+<node TEXT="Anastasia (Dan Dare&apos;s Spaceship)" ID="ID_1400123958" CREATED="1583748068171" MODIFIED="1583748086028" LINK="http://www.dandare.org/dan/anastasia/anastasia.htm"/>
 </node>
 </node>
 </map>
