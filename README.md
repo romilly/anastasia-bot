@@ -13,10 +13,11 @@ Later I plan to replace the micro:bit by an Adafruit Clue and to add Quadrature 
 
 I'll control the Clue version via bluetooth.
 
-## Plan
+
+# Plan
 
 I'm using Freeplane (a free Mind Map editor) for [planning](plan/anastasia-bot-plan.mm). Not everyone uses this software so I have shown the current state of the planning map below.
 
-![Planning Map](/docs/images/anastasia-bot-plan.png)
+![Plan](docs/images/anastasia-bot-plan.svg)
 
 
