@@ -2,7 +2,7 @@
 
 A wheel-based mobile robot, named after [Dan Dare's spaceship](http://www.dandare.org/dan/anastasia/anastasia.htm) in the Eagle Comic (a classic from my childhood).
 
-![Anastasia](docs/images/anastasia-1.jpg)
+![Anastasia](docs/images/anastasia-with-dylaog-battery.jpg)
 
 Initially Anastasia is being driven by a micro:bit and a separate micro:bit controller,
 programmed in micropython and using radio to communicate.
