@@ -12,5 +12,8 @@ I tried out a radio-based micro:bit controller
 
 I'm sharing the project on GitHub.
 
+## Tuesday 10 March 2020
 
+I've coded the controller and Anasatsia's code.
 
+I've posted the contorller code on RAReblog, and will post Anastaisai's code tomrorrow.

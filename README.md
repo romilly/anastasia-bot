@@ -13,6 +13,8 @@ Later I plan to replace the micro:bit by an Adafruit Clue and to add Quadrature 
 
 I'll control the Clue version via bluetooth.
 
+You can read more about the project on my [RAREblog](https://blog.rareschool.com/2020/03/anastasia-is-simple-home-brew-robot-now.html).
+
 
 # Plan
 
