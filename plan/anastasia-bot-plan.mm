@@ -1,6 +1,6 @@
 <map version="freeplane 1.5.9">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Anastasia&#xa;plan" FOLDED="false" ID="Freemind_Link_1331878192" CREATED="1266488194781" MODIFIED="1583746793804" LINK="../../../../Dropbox/personal/planning/routine/active-projects.mm"><hook NAME="MapStyle">
+<node TEXT="Anastasia&#xa;plan" FOLDED="false" ID="Freemind_Link_1331878192" CREATED="1266488194781" MODIFIED="1583850566679" LINK="../../../../Dropbox/personal/planning/routine/active-projects.mm"><hook NAME="MapStyle">
     <properties fit_to_viewport="false;"/>
 
 <map_styles>
@@ -88,7 +88,8 @@
 <node TEXT="write simple test software" ID="ID_149480685" CREATED="1583746944578" MODIFIED="1583746950720"/>
 <node TEXT="test radio controller" ID="ID_1801847010" CREATED="1583746951138" MODIFIED="1583746959184"/>
 </node>
-<node TEXT="Iteration 2" ID="ID_1039462648" CREATED="1583747058130" MODIFIED="1583747061373">
+<node TEXT="Iteration 2" ID="ID_1039462648" CREATED="1583747058130" MODIFIED="1583850571543">
+<icon BUILTIN="button_ok"/>
 <node TEXT="better power control" ID="ID_35375826" CREATED="1583747087394" MODIFIED="1583747093503">
 <node TEXT="use Dyalog battery" ID="ID_231376265" CREATED="1583747065234" MODIFIED="1583747082790"/>
 <node TEXT="add power switch" ID="ID_964561759" CREATED="1583747107496" MODIFIED="1583747112156"/>
@@ -109,12 +110,7 @@
 <node TEXT="TTL Video camera" ID="ID_961583000" CREATED="1583747577466" MODIFIED="1583747595205"/>
 </node>
 </node>
-<node TEXT="Tasks" POSITION="right" ID="Freemind_Link_857865306" CREATED="1266488223477" MODIFIED="1266488636684" COLOR="#de5613">
-<node TEXT="add more resource links to mind map" ID="ID_1830172551" CREATED="1583747615866" MODIFIED="1583747630195">
-<node TEXT="Kitronik data sheet" ID="ID_593130514" CREATED="1583747631425" MODIFIED="1583747637742"/>
-<node TEXT="motors" ID="ID_1127778814" CREATED="1583747704850" MODIFIED="1583747708020"/>
-</node>
-</node>
+<node TEXT="Tasks" POSITION="right" ID="Freemind_Link_857865306" CREATED="1266488223477" MODIFIED="1266488636684" COLOR="#de5613"/>
 <node TEXT="Review" POSITION="left" ID="Freemind_Link_1153466861" CREATED="1266488259116" MODIFIED="1266488895851" COLOR="#fb1802">
 <icon BUILTIN="xmag"/>
 <node TEXT="WW" ID="Freemind_Link_1466796877" CREATED="1266488965666" MODIFIED="1296303686570" COLOR="#ffcc00" BACKGROUND_COLOR="#006666">
@@ -172,6 +168,7 @@
 <node TEXT="https://learn.adafruit.com/introduction-to-bluetooth-low-energy/introduction" ID="ID_663337947" CREATED="1583748006030" MODIFIED="1583748006030" LINK="https://learn.adafruit.com/introduction-to-bluetooth-low-energy/introduction"/>
 </node>
 <node TEXT="Anastasia (Dan Dare&apos;s Spaceship)" ID="ID_1400123958" CREATED="1583748068171" MODIFIED="1583748086028" LINK="http://www.dandare.org/dan/anastasia/anastasia.htm"/>
+<node TEXT="Kitronic Motor Contoller" ID="ID_48359397" CREATED="1583850601265" MODIFIED="1583850617536" LINK="https://www.kitronik.co.uk/5620-motor-driver-board-for-the-bbc-microbit-v2.html"/>
 </node>
 </node>
 </map>
