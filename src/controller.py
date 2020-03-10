@@ -9,7 +9,9 @@ from microbit import *
 import radio
 
 radio.on()
-RANGE = 250 # The critical value for tilt detection. A lower value makes the controller more sensitive.
+# The critical value for tilt detection.
+# A lower value makes the controller more sensitive.
+RANGE = 250
 
 
 def say(command):
