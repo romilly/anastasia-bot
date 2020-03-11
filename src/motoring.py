@@ -81,7 +81,7 @@ class Driver:
         """
         if message is None or message not in self.commands:
             return
-        # execute the bound method if a valid message was recceived.
+        # execute the bound method if a valid message was received.
         self.commands[message]()
 
     def run(self):
