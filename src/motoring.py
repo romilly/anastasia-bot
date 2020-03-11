@@ -1,7 +1,7 @@
 """
-Obey incoming commands using the Kitronik Motor Conroller.
+Obey incoming radio commands using the Kitronik Motor Controller.
 
-Commands are senf from a second micro:bit using the radio.
+Commands are sent from a second micro:bit.
 See `controller.py` for the code that runs on the controller micro:bit.
 """
 from microbit import *
@@ -14,12 +14,12 @@ class Driver:
     """
     def __init__(self, left_pins=(pin16, pin0), right_pins=(pin8, pin12)):
         """
-        Configure the controls and map commands to bound methods.
+        Configure the pins and map commands to bound methods.
 
         :param left_pins:
         :param right_pins:
 
-        See https://blog.rareschool.com/ for more details
+        See https://blog.rareschool.com/2020/03/driving-anastasias-kitronik-motor.html for more details.
 
         See https://www.kitronik.co.uk/pdf/5620-motor-driver-board.pdf for Kitronik's data sheet.
         """
@@ -53,21 +53,20 @@ class Driver:
 
     def spin_left(self):
         """
-        Set left motor to run backwards, right motor to run forwards
+        Set left motor to run backwards, right motor to run forwards.
         """
         self.set_control_pins(1, 0, 0, 1)
 
     def spin_right(self):
         """
-               Set left motor to run forwards, right motor to run backwards
+               Set left motor to run forwards, right motor to run backwards.
                """
         self.set_control_pins(0, 1, 1, 0)
 
     def set_control_pins(self, *pin_values):
         """
-        Set the contol pins for the motor contoller
+        Set the control pin states for the motor controller.
         :param pin_values: four values for the four control pins
-        :return:
         """
         for pin, pin_value in  zip(self.pins, pin_values):
             pin.write_digital(pin_value)
@@ -77,7 +76,6 @@ class Driver:
         Map a valid message to a method and run it.
 
         :param message: the message to obey, or None if no message was received.
-        :return:
         """
         if message is None or message not in self.commands:
             return
