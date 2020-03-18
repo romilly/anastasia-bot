@@ -16,4 +16,15 @@ I'm sharing the project on GitHub.
 
 I've coded the controller and Anasatsia's code.
 
-I've posted the contorller code on RAReblog, and will post Anastaisai's code tomrorrow.
+I've posted the controller code on RAReblog, and will post Anastaisai's code tomrorrow.
+
+## Monday 16 March 2020
+
+A lot of work done; journal updates, not so much :)
+
+I've posted all the code, listed a Bill of Materials, and taken pictures of the build.
+
+
+
+
+
