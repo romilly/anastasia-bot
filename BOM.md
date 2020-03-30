@@ -39,7 +39,7 @@
 |---|-:|--|-------|
 |AA battery|2|Generic|Rechargeable batteries are greener.|
 |battery holder with switch|1|[Kitronik](https://www.kitronik.co.uk/2268-2x-aa-battery-box-with-switch-and-connector.html)
-|micro:bit|1|[Kitronik](https://www.kitronik.co.uk/5613-bbc-microbit-board-only.html)|for contoller|
+|micro:bit|1|[Kitronik](https://www.kitronik.co.uk/5613-bbc-microbit-board-only.html)|for controller|
 
 To power Anastasia you'll need **one of the alternatives below**:
 
